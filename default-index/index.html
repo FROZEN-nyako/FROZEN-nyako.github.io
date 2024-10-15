@@ -458,14 +458,14 @@
               </span>
               <span class="post-meta-item-text">Posted on</span>
 
-              <time title="Created: 2024-04-26 15:00:00" itemprop="dateCreated datePublished" datetime="2024-04-26T15:00:00+08:00">2024-04-26</time>
+              <time title="Created: 2024-04-26 00:00:00" itemprop="dateCreated datePublished" datetime="2024-04-26T00:00:00+08:00">2024-04-26</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2024-05-18 06:46:19" itemprop="dateModified" datetime="2024-05-18T06:46:19+08:00">2024-05-18</time>
+                <time title="Modified: 2024-10-15 22:03:54" itemprop="dateModified" datetime="2024-10-15T22:03:54+08:00">2024-10-15</time>
               </span>
 
           
@@ -482,16 +482,23 @@
           <p>The programming languages I use include Mathematica, Python, and a bit of Julia. I believe it is of great significance recently for a physicist to have a good command of coding skills, and I have been continuously learning and practicing my coding abilities.</p>
 <p>I have uploaded several programs I wrote to my <a target="_blank" rel="noopener" href="https://github.com/FROZEN-nyako?tab=repositories">GitHub repositories</a>, some of them related to my <a target="_blank" rel="noopener" href="https://frozen-nyako.github.io/2024/04/24/Projects/">Projects</a>. In what follows I will present brief introductions to them.</p>
 <details>
+  <summary><a target="_blank" rel="noopener" href="https://github.com/FROZEN-nyako/Lanczos_Algorithm"><b>Lanczos Algorithm</b></a> in Python</summary>
+  <p style="margin-left: 40px;">
+  This program provides an implementation of the Lanczos algorithm and employs MPI to perform parallel computation on multiple CPUs, reducing the actual runtime of the codes. The Lanczos algorithm is well-suited for finding the lowest few eigenstates of large sparse matrices, which has many applications in physics.
+  </p>
+</details>
+
+<details>
   <summary><a target="_blank" rel="noopener" href="https://github.com/FROZEN-nyako/Solving_3D_Schroedinger_Equations"><b>Solving 3D Schrödinger Equations</b></a> in Python</summary>
   <p style="margin-left: 40px;">
-  This program utilizes the Lanczos algorithm to solve the three-dimensional Schrödinger equation. By discretizing on the lattice, the solving of partial differential equations is transformed into an eigenvalue problem. Two types of Laplacian operators, the 7-point stencil and the 27-point stencil, are defined on the lattice. The Lanczos algorithm is used to reduce the complexity of matrix diagonalization, significantly reducing the time required for diagonalization while maintaining accuracy.
+  This program utilizes the Lanczos algorithm to solve the three-dimensional Schrödinger equation. By discretizing on the lattice in a finite volume, the solving of partial differential equations is transformed into an eigenvalue problem. Two types of Laplacian operators, the 7-point stencil and the 27-point stencil, are defined on the lattice. The Lanczos algorithm is used to reduce the complexity of matrix diagonalization, significantly reducing the time required for diagonalization while maintaining accuracy.
   </p>
 </details>
 
 <details>
   <summary><a target="_blank" rel="noopener" href="https://github.com/FROZEN-nyako/Complete_HH_molecular_multiplets"><b>Complete <em>HH</em> molecular multiplets</b></a> in Mathematica</summary>
   <p style="margin-left: 40px;">
-  This program calculates the contact potentials of non-relativistic D<sup>(</sup>*<sup>)</sup>D<sup>(</sup>*<sup>)</sup> scattering under the heavy-quark limit, which is used in my project <a target="_blank" rel="noopener" href="https://frozen-nyako.github.io/2024/04/24/Projects/">2023.10-2024.4</a>.
+  This program calculates the constant contact potentials of non-relativistic D<sup>(</sup>*<sup>)</sup>D<sup>(</sup>*<sup>)</sup> scattering under the heavy-quark limit, which is used in my project <a target="_blank" rel="noopener" href="https://frozen-nyako.github.io/2024/04/24/Projects/">2023.10-2024.4</a>.
   </p>
 </details>
       
@@ -608,7 +615,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2024-07-18 07:50:13" itemprop="dateModified" datetime="2024-07-18T07:50:13+08:00">2024-07-18</time>
+                <time title="Modified: 2024-10-14 23:10:35" itemprop="dateModified" datetime="2024-10-14T23:10:35+08:00">2024-10-14</time>
               </span>
 
           
@@ -631,14 +638,14 @@
 <details>
   <summary>2024.1-present <b>Solving two-nucleon system in a boosted box</b></summary>
   <p style="margin-left: 40px;">
-  This work is a part of and to support the program of harmonic-oscillator-based effective theory (HOBET). One goal of HOBET is to determine the low-energy constants of the effective theory directly from lattice quantum chromodynamics (LQCD) calculation of two-nucleon spectrum in a boosted finite volume. In this study, we mimic the results of the LQCD calculation with a known spin-dependent potential, extracting physical observables including the energy spectrum and the angular momentum contents of the resulting eigenstates. The approach employed is solving the Schrödinger equation on a boosted (thus bent and non-orthogonal) lattice. Moreover, we use this example to understand the impact of periodicity and finite volume on the potential and the spectrum.
+  This work is a part of and to support the program of harmonic-oscillator-based effective theory (HOBET). One goal of HOBET is to determine the low-energy constants of the effective theory directly from lattice quantum chromodynamics (LQCD) computation of two-nucleon spectrum in a boosted finite volume. In this study, we mimic the results of the LQCD calculation with a known spin-dependent potential, extracting physical observables including the energy spectrum and the angular momentum contents of the resulting eigenstates. The approach employed is solving the Schrödinger equation on a boosted (thus bent and non-orthogonal) lattice. Moreover, we use this example to understand the impact of periodicity and finite volume on the potential and the spectrum.
   </p>
 </details>
 
 <details>
   <summary>2023.10-2024.4 <b>Investigating entanglement in the low-energy sector of heavy mesons</b></summary>
   <p style="margin-left: 40px;">
-  This work explores a conjecture known as entanglement suppression which is proposed as one possible origin of emergent symmetries, in the context of heavy meson scatterings. We find that entanglement suppression indeed leads to the enlargement of the inherent heavy-quark spin symmetry of the heavy meson system, SU(2)×SU(2), to a light-quark spin symmetry, SU(4), and predicts additional siblings for X(3872) and T<sub>cc</sub>(3875)<sup>+</sup>. See our paper here: <em>Tao-Ran Hu, Su Chen, and Feng-Kun Guo, Entanglement suppression and low-energy scattering of heavy mesons, <a target="_blank" rel="noopener" href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.014001">Phys. Rev. D <b>110</b>, 014001 (2024)</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2404.05958">arXiv:2404.05958 [hep-ph]</a></em>.
+  This work explores a conjecture known as entanglement suppression which has been proposed as one possible origin of emergent symmetries, in the context of heavy meson scatterings. We find that entanglement suppression indeed leads to the enlargement of the inherent heavy-quark spin symmetry of the heavy meson system, SU(2)×SU(2), to a light-quark spin symmetry, SU(4), and predicts additional siblings for X(3872) and T<sub>cc</sub>(3875)<sup>+</sup>. See our paper here: <em>Tao-Ran Hu, Su Chen, and Feng-Kun Guo, Entanglement suppression and low-energy scattering of heavy mesons, <a target="_blank" rel="noopener" href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.014001">Phys. Rev. D <b>110</b>, 014001 (2024)</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2404.05958">arXiv:2404.05958 [hep-ph]</a></em>.
   </p>
 </details>
 
